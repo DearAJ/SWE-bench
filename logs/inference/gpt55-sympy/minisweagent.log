@@ -1,0 +1,7 @@
+2026-10-16 02:53:57,316 - minisweagent - INFO - Loading dataset SWE-bench/SWE-bench_Lite, split test...
+2026-10-16 02:54:00,493 - minisweagent - INFO - Instance filter: 300 -> 1 instances
+2026-10-16 02:54:00,495 - minisweagent - INFO - Running on 1 instances...
+2026-10-16 02:54:00,495 - minisweagent - INFO - Building agent config from specs: ['/Users/aijun/code/SWE-bench/.venv/lib/python3.13/site-packages/minisweagent/config/benchmarks/swebench.yaml', 'swebench-custom-api.yaml']
+2026-10-16 02:54:03,422 - minisweagent.environment - DEBUG - Starting container with command: docker run -d --name minisweagent-06e1cde6 -w /testbed --rm docker.io/swebench/sweb.eval.x86_64.sympy_1776_sympy-20590:latest sleep 2h
+2026-10-16 02:54:04,066 - minisweagent.environment - INFO - Started container minisweagent-06e1cde6 with ID 5a9ea3b4e48b6c766692ac63a0f4479c1b64f37999cd9b245b83529a5d24030a
+2026-10-16 02:55:49,170 - minisweagent - INFO - Saved trajectory to 'logs/inference/gpt55-sympy-v2/sympy__sympy-20590/sympy__sympy-20590.traj.json'
